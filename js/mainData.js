@@ -1,5 +1,5 @@
 const mainData = () => {
-    fetch('https://intensive-animesite-js-default-rtdb.firebaseio.com/db.json')
+    fetch('https://intensive-animesite-js-default-rtdb.firebaseio.com/anime.json')
         .then((response) => {
             return response.json() // распаковываем данные с сервера
         })
