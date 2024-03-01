@@ -4,7 +4,7 @@ const mainData = () => {
             return response.json() // распаковываем данные с сервера
         })
         .then ((data) => {
-            console.log(data) // передача распакованных данных
+            console.log(data.anime) // передача распакованных данных
         })
 }
 
